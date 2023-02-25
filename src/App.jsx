@@ -8,9 +8,10 @@ import Service from './components/Service'
 import Contact from './components/Contact'
 import About from './components/About'
 import Career from './components/Career'
+import { getDatabase } from './notion'
 
 function App() {
-
+  getDatabase()
   return (
     <div className="App ">
 
